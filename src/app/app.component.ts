@@ -18,6 +18,8 @@ import { MenuNestedExample } from './Menu/menu-nested-example.component';
 import { PaginatorOverviewExample } from './Paginator/paginator-overview-example.component';
 import { ProgressBarConfigurableExample } from './Progress bar/progress-bar-configurable-example.component';
 import { ProgressSpinnerOverviewExample } from './Progress spinner/progress-spinner-overview-example.component';
+import { RadioNgModelExample } from './Radio button/radio-ng-model-example.component';
+import { SelectCustomTriggerExample } from './Select/Select-custom-trigger-text/select-custom-trigger-example.component';
 
 @Component({
   selector: 'app-root',
@@ -27,7 +29,7 @@ import { ProgressSpinnerOverviewExample } from './Progress spinner/progress-spin
     DatepickerCustomHeaderExample,DialogContentExample,ExpansionStepsExample,
     FormFieldOverviewExample, InputClearableExample, ListSingleSelectionExample,
     MenuNestedExample,PaginatorOverviewExample,ProgressBarConfigurableExample,
-    ProgressSpinnerOverviewExample
+    ProgressSpinnerOverviewExample, RadioNgModelExample, SelectCustomTriggerExample
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
