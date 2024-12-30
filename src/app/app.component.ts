@@ -16,6 +16,8 @@ import { InputClearableExample } from './Input/input-clearable-example.component
 import { ListSingleSelectionExample } from './List/list-single-selection-example.component';
 import { MenuNestedExample } from './Menu/menu-nested-example.component';
 import { PaginatorOverviewExample } from './Paginator/paginator-overview-example.component';
+import { ProgressBarConfigurableExample } from './Progress bar/progress-bar-configurable-example.component';
+import { ProgressSpinnerOverviewExample } from './Progress spinner/progress-spinner-overview-example.component';
 
 @Component({
   selector: 'app-root',
@@ -24,7 +26,8 @@ import { PaginatorOverviewExample } from './Paginator/paginator-overview-example
     ButtonToggleModeExample, CardFancyExample, ChipsReactiveFormExample,
     DatepickerCustomHeaderExample,DialogContentExample,ExpansionStepsExample,
     FormFieldOverviewExample, InputClearableExample, ListSingleSelectionExample,
-    MenuNestedExample,PaginatorOverviewExample
+    MenuNestedExample,PaginatorOverviewExample,ProgressBarConfigurableExample,
+    ProgressSpinnerOverviewExample
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
