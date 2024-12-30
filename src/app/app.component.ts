@@ -8,12 +8,15 @@ import { ButtonOverviewExample } from './Buttons/button-overview-example.compone
 import { ButtonToggleModeExample } from './Buttons toggle/button-toggle-mode-example.component';
 import { CardFancyExample } from './Cards/card-fancy-example.component';
 import { ChipsReactiveFormExample } from './Chips/chips-reactive-form-example.component';
+import { DatepickerCustomHeaderExample } from './Datepicker/datepicker-custom-header-example.component';
+import { DialogContentExample } from './Dialog/dialog-content-example.component';
 
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, BadgeOverviewExample, AutocompleteRequireSelectionExample
     ,AutocompleteSimpleExample,BottomSheetOverviewExample, ButtonOverviewExample,
-    ButtonToggleModeExample, CardFancyExample, ChipsReactiveFormExample
+    ButtonToggleModeExample, CardFancyExample, ChipsReactiveFormExample,
+    DatepickerCustomHeaderExample,DialogContentExample
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
