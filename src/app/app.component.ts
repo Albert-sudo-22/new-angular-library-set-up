@@ -14,6 +14,8 @@ import { ExpansionStepsExample } from './Expansion/expansion-steps-example.compo
 import { FormFieldOverviewExample } from './Form field/form-field-overview-example.component';
 import { InputClearableExample } from './Input/input-clearable-example.component';
 import { ListSingleSelectionExample } from './List/list-single-selection-example.component';
+import { MenuNestedExample } from './Menu/menu-nested-example.component';
+import { PaginatorOverviewExample } from './Paginator/paginator-overview-example.component';
 
 @Component({
   selector: 'app-root',
@@ -21,7 +23,8 @@ import { ListSingleSelectionExample } from './List/list-single-selection-example
     ,AutocompleteSimpleExample,BottomSheetOverviewExample, ButtonOverviewExample,
     ButtonToggleModeExample, CardFancyExample, ChipsReactiveFormExample,
     DatepickerCustomHeaderExample,DialogContentExample,ExpansionStepsExample,
-    FormFieldOverviewExample, InputClearableExample, ListSingleSelectionExample
+    FormFieldOverviewExample, InputClearableExample, ListSingleSelectionExample,
+    MenuNestedExample,PaginatorOverviewExample
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
