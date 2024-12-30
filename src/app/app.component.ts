@@ -10,13 +10,16 @@ import { CardFancyExample } from './Cards/card-fancy-example.component';
 import { ChipsReactiveFormExample } from './Chips/chips-reactive-form-example.component';
 import { DatepickerCustomHeaderExample } from './Datepicker/datepicker-custom-header-example.component';
 import { DialogContentExample } from './Dialog/dialog-content-example.component';
+import { ExpansionStepsExample } from './Expansion/expansion-steps-example.component';
+import { FormFieldOverviewExample } from './Form field/form-field-overview-example.component';
 
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, BadgeOverviewExample, AutocompleteRequireSelectionExample
     ,AutocompleteSimpleExample,BottomSheetOverviewExample, ButtonOverviewExample,
     ButtonToggleModeExample, CardFancyExample, ChipsReactiveFormExample,
-    DatepickerCustomHeaderExample,DialogContentExample
+    DatepickerCustomHeaderExample,DialogContentExample,ExpansionStepsExample,
+    FormFieldOverviewExample
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
