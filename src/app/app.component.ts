@@ -12,6 +12,8 @@ import { DatepickerCustomHeaderExample } from './Datepicker/datepicker-custom-he
 import { DialogContentExample } from './Dialog/dialog-content-example.component';
 import { ExpansionStepsExample } from './Expansion/expansion-steps-example.component';
 import { FormFieldOverviewExample } from './Form field/form-field-overview-example.component';
+import { InputClearableExample } from './Input/input-clearable-example.component';
+import { ListSingleSelectionExample } from './List/list-single-selection-example.component';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +21,7 @@ import { FormFieldOverviewExample } from './Form field/form-field-overview-examp
     ,AutocompleteSimpleExample,BottomSheetOverviewExample, ButtonOverviewExample,
     ButtonToggleModeExample, CardFancyExample, ChipsReactiveFormExample,
     DatepickerCustomHeaderExample,DialogContentExample,ExpansionStepsExample,
-    FormFieldOverviewExample
+    FormFieldOverviewExample, InputClearableExample, ListSingleSelectionExample
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
