@@ -6,12 +6,14 @@ import { AutocompleteSimpleExample } from './AutoComplete/Simple/autocomplete-si
 import { BottomSheetOverviewExample } from './Bottom Sheet/bottom-sheet-overview-example.component';
 import { ButtonOverviewExample } from './Buttons/button-overview-example.component';
 import { ButtonToggleModeExample } from './Buttons toggle/button-toggle-mode-example.component';
+import { CardFancyExample } from './Cards/card-fancy-example.component';
+import { ChipsReactiveFormExample } from './Chips/chips-reactive-form-example.component';
 
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, BadgeOverviewExample, AutocompleteRequireSelectionExample
     ,AutocompleteSimpleExample,BottomSheetOverviewExample, ButtonOverviewExample,
-    ButtonToggleModeExample
+    ButtonToggleModeExample, CardFancyExample, ChipsReactiveFormExample
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
