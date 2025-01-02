@@ -25,6 +25,7 @@ import { SelectResetExample } from './Select/Select-reset/select-reset-example.c
 import { SidenavAutosizeExample } from './Side nav/sidenav-autosize-example.component';
 import { SlideToggleOverviewExample } from './Slide toggle/Overview/slide-toggle-overview-example.component';
 import { SlideToggleFormsExample } from './Slide toggle/Forms/slide-toggle-forms-example.component';
+import { SliderConfigurableExample } from './Slider/slider-configurable-example.component';
 
 @Component({
   selector: 'app-root',
@@ -36,7 +37,7 @@ import { SlideToggleFormsExample } from './Slide toggle/Forms/slide-toggle-forms
     MenuNestedExample,PaginatorOverviewExample,ProgressBarConfigurableExample,
     ProgressSpinnerOverviewExample, RadioNgModelExample, SelectCustomTriggerExample,
     SelectOptgroupExample, SelectResetExample, SidenavAutosizeExample, SlideToggleOverviewExample,
-    SlideToggleFormsExample
+    SlideToggleFormsExample, SliderConfigurableExample
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
