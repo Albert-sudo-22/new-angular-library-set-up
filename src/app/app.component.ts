@@ -26,6 +26,7 @@ import { SidenavAutosizeExample } from './Side nav/sidenav-autosize-example.comp
 import { SlideToggleOverviewExample } from './Slide toggle/Overview/slide-toggle-overview-example.component';
 import { SlideToggleFormsExample } from './Slide toggle/Forms/slide-toggle-forms-example.component';
 import { SliderConfigurableExample } from './Slider/slider-configurable-example.component';
+import { SnackBarPositionExample } from './Snack bar/snack-bar-position-example.component';
 
 @Component({
   selector: 'app-root',
@@ -37,7 +38,8 @@ import { SliderConfigurableExample } from './Slider/slider-configurable-example.
     MenuNestedExample,PaginatorOverviewExample,ProgressBarConfigurableExample,
     ProgressSpinnerOverviewExample, RadioNgModelExample, SelectCustomTriggerExample,
     SelectOptgroupExample, SelectResetExample, SidenavAutosizeExample, SlideToggleOverviewExample,
-    SlideToggleFormsExample, SliderConfigurableExample
+    SlideToggleFormsExample, SliderConfigurableExample, SnackBarPositionExample,
+    
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
