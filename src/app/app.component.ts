@@ -20,6 +20,8 @@ import { ProgressBarConfigurableExample } from './Progress bar/progress-bar-conf
 import { ProgressSpinnerOverviewExample } from './Progress spinner/progress-spinner-overview-example.component';
 import { RadioNgModelExample } from './Radio button/radio-ng-model-example.component';
 import { SelectCustomTriggerExample } from './Select/Select-custom-trigger-text/select-custom-trigger-example.component';
+import { SelectOptgroupExample } from './Select/Select-option-group/select-optgroup-example.component';
+import { SelectResetExample } from './Select/Select-reset/select-reset-example.component';
 
 @Component({
   selector: 'app-root',
@@ -29,7 +31,8 @@ import { SelectCustomTriggerExample } from './Select/Select-custom-trigger-text/
     DatepickerCustomHeaderExample,DialogContentExample,ExpansionStepsExample,
     FormFieldOverviewExample, InputClearableExample, ListSingleSelectionExample,
     MenuNestedExample,PaginatorOverviewExample,ProgressBarConfigurableExample,
-    ProgressSpinnerOverviewExample, RadioNgModelExample, SelectCustomTriggerExample
+    ProgressSpinnerOverviewExample, RadioNgModelExample, SelectCustomTriggerExample,
+    SelectOptgroupExample, SelectResetExample
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
