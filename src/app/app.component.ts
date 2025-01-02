@@ -22,6 +22,9 @@ import { RadioNgModelExample } from './Radio button/radio-ng-model-example.compo
 import { SelectCustomTriggerExample } from './Select/Select-custom-trigger-text/select-custom-trigger-example.component';
 import { SelectOptgroupExample } from './Select/Select-option-group/select-optgroup-example.component';
 import { SelectResetExample } from './Select/Select-reset/select-reset-example.component';
+import { SidenavAutosizeExample } from './Side nav/sidenav-autosize-example.component';
+import { SlideToggleOverviewExample } from './Slide toggle/Overview/slide-toggle-overview-example.component';
+import { SlideToggleFormsExample } from './Slide toggle/Forms/slide-toggle-forms-example.component';
 
 @Component({
   selector: 'app-root',
@@ -32,7 +35,8 @@ import { SelectResetExample } from './Select/Select-reset/select-reset-example.c
     FormFieldOverviewExample, InputClearableExample, ListSingleSelectionExample,
     MenuNestedExample,PaginatorOverviewExample,ProgressBarConfigurableExample,
     ProgressSpinnerOverviewExample, RadioNgModelExample, SelectCustomTriggerExample,
-    SelectOptgroupExample, SelectResetExample
+    SelectOptgroupExample, SelectResetExample, SidenavAutosizeExample, SlideToggleOverviewExample,
+    SlideToggleFormsExample
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

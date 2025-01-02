@@ -1,0 +1,17 @@
+<p>Slide Toggle inside of a Reactive form</p>
+
+<form 
+  class="example-form" 
+  [formGroup]="formGroup" 
+  (ngSubmit)="alertFormValues()" 
+  ngNativeValidate
+>
+  <mat-slide-toggle formControlName="enableWifi">Enable Wifi</mat-slide-toggle>
+  <mat-slide-toggle formControlName="acceptTerms">Accept Terms of Service</mat-slide-toggle>
+
+  <p>Form Group Status: {{ formGroup.status }}</p>
+
+  <button mat-raised-button type="submit" [disabled]="formGroup.invalid">
+    Save Settings
+  </button>
+</form>
