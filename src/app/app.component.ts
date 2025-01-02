@@ -27,6 +27,7 @@ import { SlideToggleOverviewExample } from './Slide toggle/Overview/slide-toggle
 import { SlideToggleFormsExample } from './Slide toggle/Forms/slide-toggle-forms-example.component';
 import { SliderConfigurableExample } from './Slider/slider-configurable-example.component';
 import { SnackBarPositionExample } from './Snack bar/snack-bar-position-example.component';
+import { SortOverviewExample } from './Sort header/sort-overview-example.component';
 
 @Component({
   selector: 'app-root',
@@ -39,7 +40,8 @@ import { SnackBarPositionExample } from './Snack bar/snack-bar-position-example.
     ProgressSpinnerOverviewExample, RadioNgModelExample, SelectCustomTriggerExample,
     SelectOptgroupExample, SelectResetExample, SidenavAutosizeExample, SlideToggleOverviewExample,
     SlideToggleFormsExample, SliderConfigurableExample, SnackBarPositionExample,
-    
+    SortOverviewExample
+
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
