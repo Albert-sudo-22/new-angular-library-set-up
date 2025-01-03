@@ -28,6 +28,7 @@ import { SlideToggleFormsExample } from './Slide toggle/Forms/slide-toggle-forms
 import { SliderConfigurableExample } from './Slider/slider-configurable-example.component';
 import { SnackBarPositionExample } from './Snack bar/snack-bar-position-example.component';
 import { SortOverviewExample } from './Sort header/sort-overview-example.component';
+import { StepperEditableExample } from './Stepper/stepper-editable-example.component';
 
 @Component({
   selector: 'app-root',
@@ -40,7 +41,7 @@ import { SortOverviewExample } from './Sort header/sort-overview-example.compone
     ProgressSpinnerOverviewExample, RadioNgModelExample, SelectCustomTriggerExample,
     SelectOptgroupExample, SelectResetExample, SidenavAutosizeExample, SlideToggleOverviewExample,
     SlideToggleFormsExample, SliderConfigurableExample, SnackBarPositionExample,
-    SortOverviewExample
+    SortOverviewExample, StepperEditableExample
 
   ],
   templateUrl: './app.component.html',
