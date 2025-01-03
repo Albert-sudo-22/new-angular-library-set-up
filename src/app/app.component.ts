@@ -29,6 +29,8 @@ import { SliderConfigurableExample } from './Slider/slider-configurable-example.
 import { SnackBarPositionExample } from './Snack bar/snack-bar-position-example.component';
 import { SortOverviewExample } from './Sort header/sort-overview-example.component';
 import { StepperEditableExample } from './Stepper/stepper-editable-example.component';
+import { TableDynamicArrayDataExample } from './Table/Dynamic array/table-dynamic-array-data-example.component';
+import { TableOverviewExample } from './Table/Overview/table-overview-example.component';
 
 @Component({
   selector: 'app-root',
@@ -41,7 +43,8 @@ import { StepperEditableExample } from './Stepper/stepper-editable-example.compo
     ProgressSpinnerOverviewExample, RadioNgModelExample, SelectCustomTriggerExample,
     SelectOptgroupExample, SelectResetExample, SidenavAutosizeExample, SlideToggleOverviewExample,
     SlideToggleFormsExample, SliderConfigurableExample, SnackBarPositionExample,
-    SortOverviewExample, StepperEditableExample
+    SortOverviewExample, StepperEditableExample, TableDynamicArrayDataExample,
+    TableOverviewExample
 
   ],
   templateUrl: './app.component.html',
